@@ -5,32 +5,32 @@ $(document).ready(function() {
     parseInt($("#person-type").val());
     if (score === 4) {
       $("img").hide();
-      $(".mark").show();
-      $("#celebmatch").text("MARK RUFFALO, DAAAMN");
+      $(".daenerys").show();
+      $("#gotmatch").text("MOTHER OF DRAGONS!");
       $("#match-header").show();
     }
     else if (score >= 5 && score <= 10) {
       $("img").hide();
-      $(".emma").show();
-      $("#celebmatch").text("EMMA WATSON YOU LUCKY DOG");
+      $(".john-snow.").show();
+      $("#gotmatch").text("YOU KNOW NOTHING!");
       $("#match-header").show();
     }
     else if (score >= 11 && score <= 15) {
       $("img").hide();
-      $(".will").show();
-      $("#celebmatch").text(" THE FRESHEST GODDAMN PRINCE");
+      $(".tyrion").show();
+      $("#gotmatch").text("TYRION, THE HALF MAN");
       $("#match-header").show();
     }
     else if (score >= 16 && score <= 19) {
       $("img").hide();
-      $(".gaga").show();
-      $("#celebmatch").text("LADY GAGA, OH MY GOD");
+      $(".cersei").show();
+      $("#gotmatch").text("ALL YOUR CHILDREN ARE DEAD");
       $("#match-header").show();
     }
     else {
       $("img").hide();
-      $(".andy").show();
-      $("#celebmatch").text("unfortunately, you get DICK");
+      $(".night-king").show();
+      $("#gotmatch").text("NIGHT KING!!!!!");
       $("#match-header").show();
     }
   });
