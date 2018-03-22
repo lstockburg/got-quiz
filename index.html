@@ -61,8 +61,7 @@
         </div>
         <div class="form-group">
           <h3>Which of these activities would you like to do on a date?</h3>
-          <select class="form-control" id="date-type" name="date-type">
-            <option>Select</option>
+          <select required class="form-control" id="date-type" name="date-type">
             <option value=1>Walk in the Park</option>
             <option value=6>Dollar Jello Shots at Bennigan's</option>
             <option value=2>Dinner and a Movie</option>
@@ -71,8 +70,7 @@
         </div>
         <div class="form-group">
           <h3>Which of these qualities do you find most attractive in a person</h3>
-          <select class="form-control" id="person-type" name="person-type">
-            <option>Select</option>
+          <select required class="form-control" id="person-type" name="person-type">
             <option value=2>Humor</option>
             <option value=1>Intelligence</option>
             <option value=5>Reckless Alcoholism</option>
@@ -82,6 +80,7 @@
         <button type="submit" id="match" class="btn btn-primary">Find out your celebrity match!</button>
       </form>
       <div class="well">
+        <h3 id="match-header">You matched with <span id="celebmatch"></span>!</h3>
         <img class="mark" src="img/ruffalo.jpg" alt="Mark Ruffalo nips">
         <img class="emma" src="img/watson.jpg" alt="Emma Watson">
         <img class="will" src="img/will-smith.jpg" alt="Will Smith">

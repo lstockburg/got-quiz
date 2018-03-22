@@ -1,0 +1,10 @@
+img {
+  display: none;
+  width: 600px;
+  margin-top: 20px;
+}
+
+#match-header {
+  display: none;
+  margin: 20px;
+}
